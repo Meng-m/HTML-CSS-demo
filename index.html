@@ -3,10 +3,14 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>美妆网站</title>
-<link rel="stylesheet" type="text/css" href="css/index.css" />
+<link rel="stylesheet" type="text/css" href="E-website/css/index.css" />
 <script type="text/javascript">
-    function music() {
-   document.getElementById('audio').pause()
+    //设置视频自动播放
+    function music(){
+        document.getElementById('audio').play()
+    }
+    function musicpause(){
+        document.getElementById('audio').pause()
     }
 
 </script>
@@ -29,9 +33,9 @@
    <ul>
      <li class="left">
        <a class="one" href="#">
-        <img src="images/选项.png" alt="" />
+        <img src="E-website/images/选项.png" alt="" />
         <span>选项</span> 
-        <img src="images/三角形-down.png" alt="" />
+        <img src="E-website/images/三角形-down.png" alt="" />
        </a>
        
        <aside>
@@ -64,7 +68,7 @@
                 <li>>面膜</li>
             </ol>
             
-            <img src="images/cc.jpg" alt="" width="340px" height="150px" />
+            <img src="E-website/images/cc.jpg" alt="" width="340px" height="150px" />
         </aside>        
       </li>          
          <li class="center">   
@@ -74,20 +78,20 @@
          </li>
 
          <li class="right"> 
-            <a href="#" onclick="music()"><img src="images/fonts/音乐.png" /></a>
-            <a href="#"><img src="images/fonts/喇叭.png" /></a>
-            <a href="#"><img src="images/Facebook.png" /></a>
-            <a href="#"><img src="images/fonts/鸽子.png" /></a>
+            <a href="#" onclick="music()"><img src="E-website/images/fonts/音乐.png" /></a>
+            <a href="#" onclick="musicpause()"><img src="E-website/images/fonts/喇叭.png" /></a>
+            <a href="#"><img src="E-website/images/Facebook.png" /></a>
+            <a href="#"><img src="E-website/images/fonts/鸽子.png" /></a>
       </li>   
     </ul>    
    </nav>      
-    <video src="images/video.mp4" autoplay="autoplay"></video>
-   <audio id="audio" src="images/audio(你的歌).mp3" autoplay="autoplay" loop="loop"></audio>
+    <video  id="video" onmouseover="music()" src="E-website/images/video.mp4" loop muted autoplay="autoplay"></video>
+    <audio id="audio" src="E-website/images/audio(你的歌).mp3" loop autoplay="autoplay"></audio>
    <div class="pic">
       <p>select the right resolution for your PC and dive in!(请为你的电脑选择正确的分辨率)</p>
           <ul>
-             <li class="one"><span><img src="images/fonts/箭头.png"  /></span>STANDARD标准</li>
-             <li class="two"><span><img src="images/fonts/箭头.png"  /></span>HD高清</li>
+             <li class="one"><span><img src="E-website/images/fonts/箭头.png"  /></span>STANDARD标准</li>
+             <li class="two"><span><img src="E-website/images/fonts/箭头.png"  /></span>HD高清</li>
           </ul>
       </div>          
 </div>
@@ -95,7 +99,7 @@
 <!--最新单品-->
 <div class="new">
 <header>
-  <img src="images/new.png" alt="" />
+  <img src="E-website/images/new.png" alt="" />
 </header>
 <p>补水保湿 提亮肤色 低敏配方 收缩毛孔 滋养容颜</p>
 <ul>
@@ -128,62 +132,62 @@
 <!--我要试妆-->
 <div class="try">
 <header>
-  <img src="images/试妆.png" alt="" />
+  <img src="E-website/images/试妆.png" alt="" />
 </header>
 <p>美化容貌 增添自信 突出个性</p>  
   <ul>
     <li>
-      <img class="zheng" src="images/fendi.png" alt="" />
-      <img class="fan" src="images/fendifan.jpg" alt="" />
+      <img class="zheng" src="E-website/images/fendi.png" alt="" />
+      <img class="fan" src="E-website/images/fendifan.jpg" alt="" />
     </li>
     <li>
-      <img class="zheng" src="images/kouhong.jpg" alt="" />
-      <img class="fan" src="images/konghongfan.png" alt="" />
+      <img class="zheng" src="E-website/images/kouhong.jpg" alt="" />
+      <img class="fan" src="E-website/images/konghongfan.png" alt="" />
     </li>
     <li>
-      <img class="zheng" src="images/yanying.jpg" alt="" />
-      <img class="fan" src="images/yanyingfan.png" alt="" />
+      <img class="zheng" src="E-website/images/yanying.jpg" alt="" />
+      <img class="fan" src="E-website/images/yanyingfan.png" alt="" />
     </li>
   </ul>
  </div> 
 <!--评测中心-->
 <div class="text">
 <header>
-<img src="images/text.png" alt="" />
+<img src="E-website/images/text.png" alt="" />
 </header>
 <p>评测 我们更专业</p>
 <ul>
   <li>
-    <img class="tu" src="images/bencao logo.jpg" alt="" />
-    <img class="tihuan" src="images/bg4.jpg" alt="" />
+    <img class="tu" src="E-website/images/bencao logo.jpg" alt="" />
+    <img class="tihuan" src="E-website/images/bg4.jpg" alt="" />
   </li>
     <li>
-    <img class="tu" src="images/bencao logo.jpg" alt="" />
-    <img class="tihuan" src="images/bg4.jpg" alt="" />
+    <img class="tu" src="E-website/images/bencao logo.jpg" alt="" />
+    <img class="tihuan" src="E-website/images/bg4.jpg" alt="" />
   </li>
     <li>
-    <img class="tu" src="images/sk2logo.jpg" alt="" />
-    <img class="tihuan" src="images/bg2.jpg" alt="" />
+    <img class="tu" src="E-website/images/sk2logo.jpg" alt="" />
+    <img class="tihuan" src="E-website/images/bg2.jpg" alt="" />
   </li>
     <li>
-    <img class="tu" src="images/bencao logo.jpg" alt="" />
-    <img class="tihuan" src="images/bg4.jpg" alt="" />
+    <img class="tu" src="E-website/images/bencao logo.jpg" alt="" />
+    <img class="tihuan" src="E-website/images/bg4.jpg" alt="" />
   </li>
     <li>
-    <img class="tu" src="images/sk2logo.jpg" alt="" />
-    <img class="tihuan" src="images/bg2.jpg" alt="" />
+    <img class="tu" src="E-website/images/sk2logo.jpg" alt="" />
+    <img class="tihuan" src="E-website/images/bg2.jpg" alt="" />
   </li>
     <li>
-    <img class="tu" src="images/bencao logo.jpg" alt="" />
-    <img class="tihuan" src="images/bg4.jpg" alt="" />
+    <img class="tu" src="E-website/images/bencao logo.jpg" alt="" />
+    <img class="tihuan" src="E-website/images/bg4.jpg" alt="" />
   </li>
     <li>
-    <img class="tu" src="images/bencao logo.jpg" alt="" />
-    <img class="tihuan" src="images/bg4.jpg" alt="" />
+    <img class="tu" src="E-website/images/bencao logo.jpg" alt="" />
+    <img class="tihuan" src="E-website/images/bg4.jpg" alt="" />
   </li>
     <li>
-    <img class="tu" src="images/sk2logo.jpg" alt="" />
-    <img class="tihuan" src="images/bg2.jpg" alt="" />
+    <img class="tu" src="E-website/images/sk2logo.jpg" alt="" />
+    <img class="tihuan" src="E-website/images/bg2.jpg" alt="" />
   </li>
 
 </div>
